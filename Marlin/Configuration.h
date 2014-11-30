@@ -187,10 +187,10 @@
   #define PID_dT ((OVERSAMPLENR * 8.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-// Type A Machines, Winchester G2 24v
-    #define  DEFAULT_Kp 7.89
-    #define  DEFAULT_Ki 0.38
-    #define  DEFAULT_Kd 40.71
+// Type A Machines, E3D V6 12V
+    #define  DEFAULT_Kp 8.45
+    #define  DEFAULT_Ki 0.79
+    #define  DEFAULT_Kd 22.69
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
